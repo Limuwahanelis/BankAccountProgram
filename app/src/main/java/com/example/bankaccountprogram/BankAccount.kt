@@ -26,4 +26,9 @@ class BankAccount(var accountHolder:String, var balance:Double)
             println(transaction);
         }
     }
+    fun accountBalance()
+    {
+        println("$accountHolder's balance is $$balance");
+    }
+
 }
